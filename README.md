@@ -19,6 +19,7 @@ To implement Identity and Access Management (IAM) using Okta with Single Sign-On
 
 ## Implementation Steps
 
+#### Module 1
 ### 1. User Creation
 - Created users:
   - hr.user@test.com
@@ -51,6 +52,21 @@ To implement Identity and Access Management (IAM) using Okta with Single Sign-On
 
 ## Outcome
 Successfully implemented IAM using Okta with secure authentication and controlled access.
+
+#### Module 2: User Management APIs
+- Create User
+- Get User
+- Update User
+- Suspend User
+- Unsuspend User
+- Reset Password
+
+APIs used:
+GET /api/v1/users/{id}  
+POST /api/v1/users/{id}  
+POST /api/v1/users/{id}/lifecycle/suspend  
+POST /api/v1/users/{id}/lifecycle/unsuspend  
+POST /api/v1/users/{id}/lifecycle/reset_password
 
 ## Screenshots
 Refer to the screenshots folder for:
